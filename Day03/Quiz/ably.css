@@ -1,0 +1,42 @@
+.teduri {
+  width: 300px;
+  height: 500px;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.album {
+  width: 200px;
+  height: 250px;
+
+  /* transition: all 0.2s; */
+}
+/* .album:hover {
+  transform: scale(1.2) rotate(10deg);
+} */
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text2 {
+  color: red;
+  padding-right: 10px;
+}
+.small {
+  font-size: 10px;
+}
