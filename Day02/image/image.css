@@ -1,0 +1,13 @@
+.album {
+  width: 100px;
+  height: 100px;
+}
+.album > img {
+  /* 부모임 */
+  width: 100%;
+  height: 100%;
+  /* 사진이 비율에 맞게 바뀜 */
+  object-fit: contain;
+  /* 커버는 사진이 정사각형느낌인듯 글고 
+  컨테인은 사진이 예쁘게?그런느낌 */
+}

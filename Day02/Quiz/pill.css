@@ -1,0 +1,12 @@
+.pill {
+  border: 1px solid #ffffff;
+  background-color: skyblue;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 8px 16px 8px 16px;
+}
+
+.all {
+  background-color: skyblue;
+  color: white;
+}

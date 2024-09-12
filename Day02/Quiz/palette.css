@@ -1,0 +1,119 @@
+.box {
+  width: 1500px;
+  text-align: left;
+  width: 1500px;
+  height: 2000px;
+  border: 1px solid gainsboro;
+}
+
+/* .a {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: #ad687c;
+  background-color: #fef2f3;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.b {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: #ad687c;
+  background-color: #fde6e7;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.c {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: #ad687c;
+  background-color: #fbd0d5;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.d {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: #ad687c;
+  background-color: #f7aab2;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.e {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #f27a8a;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.f {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #f27a8a;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.g {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #f27a8a;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.h {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #b31d3f;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.i {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #961b3c;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.j {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #811a39;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+.k {
+  width: 100px;
+  padding: 50px 10px 25px 10px;
+  color: white;
+  background-color: #48091a;
+  border-radius: 5px;
+  margin-right: 1px;
+} */
+.paletteBox {
+  padding: 40px;
+}
+.hex {
+  text-transform: uppercase;
+}
+
+.color50 {
+  background-color: #55ffbe;
+  border: 1px solid #ff0000;
+}
+.color100 {
+  background-color: #c5ff05;
+  border: 1px solid #ff0000;
+}
+.color200 {
+  background-color: #00b7ff;
+  border: 1px solid #ff0000;
+}
+.color300 {
+  background-color: #ff0080;
+  border: 1px solid #ff0000;
+}

@@ -1,0 +1,43 @@
+.big {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: fit-content;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.album_one {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 90px;
+  justify-items: center;
+  align-items: center;
+}
+.album_one > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.font {
+  font-size: 15px;
+}
+
+.album_two {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 90px;
+  justify-items: center;
+  align-items: center;
+}
+.album_two > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}
