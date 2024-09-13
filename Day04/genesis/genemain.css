@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "MaruBuri";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf)
+      format("truetype");
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1531850959096-cfbb6f26c5a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  font-family: "MaruBuri";
+}
+.centering {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  /* display: flex;
+    justify-content: center; */
+  padding-top: 90px; /*글씨 떨어뜨린거*/
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: row;
+  gap: 500px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+}
+.big {
+  font-size: 70px;
+}
+.more {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.more > button {
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  color: white;
+}
+
+.more > button:hover {
+  /*마우스 올리면 언더바 생기고 마우스포인트변경*/
+}

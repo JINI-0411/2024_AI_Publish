@@ -1,0 +1,16 @@
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+.contents {
+  width: 100%;
+  /*너가 아무리 넓이가 넓어도 1000 넘지마라 는 뜻*/
+  max-width: 1200px;
+  background-color: skyblue;
+  height: 100px;
+  /*auto (중앙화 자동으로 계산해서 나오게 해주는거*/
+  /*12 3 6 9 인데 2개만 사용하면 위아래 좌우 가 되는거
+ 예로 10px 20px 이면 위아래는 10 주고 좌우는 20 주라는 뜻*/
+  margin: 0 auto;
+}
